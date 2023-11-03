@@ -14,7 +14,7 @@ const About = () => {
   const [ref, inView] = useInView({
     threshold: 0.5,
   })
-  return <section id='about' className='section' ref={ref}>
+  return <section id='about' className='section mt-28' ref={ref}>
     <div className='container mx-auto'>
     <br/>    <br/>    <br/>    <br/>
       <div className='flex flex-col gap-y-10 lg:flex-row lg:item-center lg:gap-x-20 lg:gap-y-0 h-screen'>

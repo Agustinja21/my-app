@@ -9,11 +9,11 @@ import Img2 from "../assets/Florencia.jpeg"
 import Img3 from "../assets/EA.jpeg"
 
 const Work = () => {
-  return <section id='work' className='section'>
+  return <section id='work' className='section p-16 mt-28'>
     <div className='conteiner mx-auto'>
-    <br/>    <br/>    <br/>    <br/>    <br/>    <br/>     <br/>    <br/>    <br/>    <br/>    <br/>    <br/>    <br/>    <br/>    <br/>    <br/>    <br/>
+    <br/>    <br/>    <br/>    <br/>    <br/>    <br/>     <br/>    <br/>    <br/>    <br/>    <br/>    <br/>   
       <div className='flex flex-col lg:flex-row gap-x-10'>
-        <div className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
+        <div1 className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
           {/*text */}
 
           <div className='flex-1 text-center'>
@@ -41,10 +41,13 @@ const Work = () => {
           </div>
           </a>
 
-        </div>
 
 
-        <div className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
+
+        </div1>
+
+
+        <div2 className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
           {/*imagen 2 */}
           <a href='https://inmobiliariamiramoreno.com.ar/'>
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
@@ -85,7 +88,7 @@ const Work = () => {
           </a>
           </div>
 
-        </div>
+        </div2>
       </div>
     </div>
   </section>;
